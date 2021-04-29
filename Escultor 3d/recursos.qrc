@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file>recursos/plotVox.svg</file>
+        <file>recursos/plotElip.svg</file>
+        <file>recursos/plotElip.png</file>
+        <file>recursos/plotCirc.svg</file>
+        <file>recursos/plotBox.svg</file>
+        <file>recursos/cortVox.svg</file>
+        <file>recursos/cortElip.svg</file>
+        <file>recursos/cortCirc.svg</file>
+        <file>recursos/cortcirc.png</file>
+        <file>recursos/cortBox.svg</file>
+        <file>recursos/salvar.png</file>
+    </qresource>
+</RCC>
