@@ -12,20 +12,34 @@
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
-
+/**
+ * @brief Classe MainWindow: responsável por inicializar a aplicação.
+ */
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
 public:
+    /**
+     * @brief MainWindow: construtor.
+     */
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
 private:
     Ui::MainWindow *ui;
 public slots:
+    /**
+     * @brief abreDialogo: Abre a caixa de diálogo para inserir os dados do plano.
+     */
     void abreDialogo(void);
+    /**
+     * @brief salvar: Salva o arquivo.
+     */
     void salvar(void);
+    /**
+     * @brief mudarPla: Muda o plano do desenho.
+     */
     void mudarPla(int _z);
 
     int getCorR();
